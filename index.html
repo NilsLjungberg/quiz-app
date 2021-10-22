@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+
+    <h1 id="title">eCommerce Quiz</h1>
+
+    <div class="questions">
+    <h3>Question 1 of 3:</h3>
+    <h4>Which of the following is not a real eCommerce platform?</h4>
+    <div>
+        <input type="radio" id="Shopify" name="group1" value="wrong">
+        <label for="Shopify">Shopify</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="WooCommerce" name="group1" value="wrong">
+        <label for="WooCommerce">WooCommerce</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="ShopCommerce" name="group1" value="true">
+        <label for="ShopCommerce">ShopCommerce</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="BigCommerce" name="group1" value="wrong">
+        <label for="BigCommerce">BigCommerce</label>
+      </div>
+    </div>
+    
+    <div class="questions display">
+    <h3>Question 2 of 3:</h3>
+    <h4>If Shopify is so good, why are Shopify developers necessary?</h4>
+    <div>
+        <input type="radio" id="savetime" name="group2" value="wrong">
+        <label for="savetime">To save time on things like store setups and migrations</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="extension" name="group2" value="wrong">
+        <label for="extension">To extend the limited design options and functionalities of themes with custom code</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="support" name="group2" value="wrong">
+        <label for="support">To provide support with a deep understanding of how the platform works and what its limitations are</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="all" name="group2" value="true">
+        <label for="all">All the above</label>
+      </div>
+    </div>
+    
+    <div class="questions display">
+    <h3>Question 3 of 3:</h3>
+    <h4>Which of the following is true about Shopify developers?</h4>
+    <div>
+        <input type="radio" id="pay" name="group3" value="wrong">
+        <label for="pay">They are paid extremely well</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="demand" name="group3" value="wrong">
+        <label for="demand">There is a high demand for them</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="knowledge" name="group3" value="wrong">
+        <label for="knowledge">They need to know web development, the platform itself, and the liquid template language</label>
+      </div>
+      
+      <div>
+        <input type="radio" id="everything" name="group3" value="true">
+        <label for="everything">All the above</label>
+      </div>
+    </div>
+
+    <button id="prev" class="not-active">Back</button>
+    <button id="next">Next</button><br>
+    <button id="submit" class="not-active">Submit</button>
+    </div>
+
+    <p id="result" class="not-active"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
